@@ -29,7 +29,7 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
     --bs-primary: #fe655c;
-    --bs-secondary: #4f6591;
+    --bs-secondary: #916d4f;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -3537,8 +3537,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #4f6591;
-    --bs-btn-border-color: #4f6591;
+    --bs-btn-bg: #916d4f;
+    --bs-btn-border-color: #916d4f;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #43567b;
     --bs-btn-hover-border-color: #3f5174;
@@ -3548,8 +3548,8 @@ fieldset:disabled .btn {
     --bs-btn-active-border-color: #3b4c6d;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #4f6591;
-    --bs-btn-disabled-border-color: #4f6591
+    --bs-btn-disabled-bg: #916d4f;
+    --bs-btn-disabled-border-color: #916d4f
 }
 
 .btn-success {
@@ -3672,19 +3672,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-    --bs-btn-color: #4f6591;
-    --bs-btn-border-color: #4f6591;
+    --bs-btn-color: #916d4f;
+    --bs-btn-border-color: #916d4f;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #4f6591;
-    --bs-btn-hover-border-color: #4f6591;
+    --bs-btn-hover-bg: #916d4f;
+    --bs-btn-hover-border-color: #916d4f;
     --bs-btn-focus-shadow-rgb: 79, 101, 145;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #4f6591;
-    --bs-btn-active-border-color: #4f6591;
+    --bs-btn-active-bg: #916d4f;
+    --bs-btn-active-border-color: #916d4f;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #4f6591;
+    --bs-btn-disabled-color: #916d4f;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #4f6591;
+    --bs-btn-disabled-border-color: #916d4f;
     --bs-gradient: none
 }
 
@@ -14170,8 +14170,8 @@ a.btn svg {
 }
 
 .light-mode {
-    background: #f5f7fa;
-    color: #354765
+    background: #faf8f5;
+    color: #2e1803
 }
 
 .light-mode h1,
@@ -14190,12 +14190,12 @@ a.btn svg {
 }
 
 .light-mode .footer .copyright a {
-    color: #354765
+    color: #2e1803
 }
 
 .light-mode .social-list a {
     background: #fff;
-    color: #4f6591;
+    color: #916d4f;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .05)
 }
 
@@ -14213,25 +14213,25 @@ a.btn svg {
 }
 
 .light-mode .resume-contact {
-    border-color: #c2cee1
+    border-color: #e1d2c2
 }
 
 .light-mode .resume-role-title {
-    color: #354765
+    color: #2e1803
 }
 
 .light-mode .resume-company-name {
-    background: #e4e9f2
+    background: #f1e6d5
 }
 
 .light-mode .resume-section-heading-icon {
-    background: #8497bc;
+    background: #d08854;
     color: #fff;
     font-weight: bold
 }
 
 .light-mode .resume-progress {
-    background: #e4e9f2
+    background: #f1e6d5
 }
 
 .light-mode .resume-skill-name {
@@ -14239,20 +14239,20 @@ a.btn svg {
 }
 
 .light-mode .resume-skill-badge {
-    background: #4f6591;
+    background: #916d4f;
     color: #fff
 }
 
 .light-mode .resume-level-indicator .item {
-    background: #e4e9f2
+    background: #f1e6d5
 }
 
 .light-mode .resume-level-indicator .item.item-full {
-    background: #8497bc
+    background: #d08854
 }
 
 .light-mode .resume-projects-section .item-heading a {
-    color: #354765
+    color: #2e1803
 }
 
 .light-mode .resume-degree {
@@ -14264,12 +14264,12 @@ a.btn svg {
 }
 
 .light-mode .resume-timeline-item:before {
-    border-color: #b1c1d8;
-    background-color: #e4e9f2
+    border-color: #d8c4b1;
+    background-color: #f1e6d5
 }
 
 .light-mode .resume-timeline:before {
-    background: #b1c1d8;
+    background: #d8c4b1;
     top: 12px
 }
 
@@ -14429,7 +14429,7 @@ a.btn svg {
 
 .resume-progress-bar {
     border-radius: .25rem;
-    background-color: #8497bc
+    background-color: #d08854
 }
 
 .resume-skill-badge {
@@ -14503,7 +14503,7 @@ a.btn svg {
 }
 
 .resume-level-indicator .item.item-full {
-    background: #8497bc
+    background: #d08854
 }
 
 .resume-level-indicator .item.item-half:after {
@@ -14514,7 +14514,7 @@ a.btn svg {
     height: 100%;
     left: 0;
     top: 0;
-    background: #8497bc
+    background: #d08854
 }
 
 @media(min-width: 992px) {
