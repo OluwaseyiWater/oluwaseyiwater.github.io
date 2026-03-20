@@ -311,7 +311,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Giwa]
-  first_name: [Oluwaseyi, E.]
+  first_name: [Oluwaseyi]
 
   style: apa
   locale: en
