@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student at MIT CSAIL, Princeton CS '24
+subtitle: Incoming PhD Student at UofT
 profile:
   align: right
-  image: az.png
+  image: og.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: true  # includes a list of news items
 social: false  # includes social icons at the bottom of the page
@@ -22,30 +22,15 @@ _styles: >
     }
 ---
 
-Hi 👋! I broadly work on areas where language models are underutilized or inefficient. Read my latest work on <a href="https://alexzhang13.github.io/blog/2025/rlm/">Recursive Language Models (RLMs)</a>. I am part of the core team running the <a href="https://www.gpumode.com/v2/home">GPU MODE leaderboard</a>, where we are currently hosting the <a href="https://luma.com/9n27uem4">NVFP4 Blackwell competition with NVIDIA</a>, and recently hosted two <a href="https://www.datamonsters.com/amd-developer-challenge-2025">$100k competitions with AMD</a> and a <a href="https://www.gpumode.com/v2/news">model optimization competition with Jane Street</a>.
+Hi 👋! I broadly work on areas in wireless communications. More specifically on AI-Native Wireless Networks, i.e., how to make AI a core part in both the architecture and functionality of wireless networks. I have applied reinforcement learning (RL) amd large language models (LLMs) as tools to simultaneously enhance the performance and address the challenges of wireless networks, particularly the forthcoming 6G network. Presently, I am exploring causality in wireless networks in collaboration with <a href="https://users.wpi.edu/~cthomas2/">Christo K. Thomas</a>.
 
-I am a PhD student at <a href="https://www.csail.mit.edu">MIT CSAIL</a> advised by <a href="https://omarkhattab.com">Omar Khattab</a> and <a href="https://people.csail.mit.edu/kraska/">Tim Kraska</a>. I spent the summer before at <a href="https://sakana.ai">Sakana AI</a> in Tokyo, Japan. I spent a year before that as a researcher at <a href="https://www.vant.ai/neo-1">VantAI</a> in NYC working on AI-based drug discovery. 
+I am an incoming PhD student at the <a href="https://www.ece.utoronto.ca/">Edward S. Rogers Sr. Department of Electrical & Computer Engineering, University of Toronto</a> advised by <a href="https://www.ece.utoronto.ca/people/adve-r/">Raviraj Adve</a>.
 
-Before that, I graduated as the <a href="https://www.cs.princeton.edu/news/class-day-department-celebrates-accomplishments-graduates">top student of the Princeton CS department</a>, where I was blessed with amazing mentors: Professor <a href="https://www.cs.princeton.edu/~karthikn/">Karthik Narasimhan</a>, Dr. <a href="https://machineslearner.com">Khanh Nguyen</a>, Dr. <a href="https://ofir.io">Ofir Press</a>, and Professor <a href="https://www.cs.princeton.edu/~li/">Kai Li</a>. During that time, I founded and ran the <a href="https://www.aiatprinceton.com">largest AI student organization at Princeton</a>. I also interned doing AI/ML research during summers at <a href="https://research.snap.com">Snapchat</a>, <a href="https://machinelearning.apple.com">Apple </a>, and <a href="https://www.claryo.co">Claryo</a>. Before that, I used to make and sell PC games, one of which was mildly successful (~100k+ players). <a href="https://www.youtube.com/watch?v=6Mmfo44FxhA">[unfinished example]</a> 
+Before that, I obtained my MSc at the <a href="https://www.uct.ac.za/">University of Cape Town</a>, where I was blessed with amazing mentors: Professor <a href="https://shocklab.net/">Jonathan Shock</a>, Dr. <a href="https://www.linkedin.com/in/jacodutoit/">Jaco Du Toit</a>. In addition to this, I was also fortunate to have worked with Dr. <a href="ttps://scholar.google.com/citations?user=at4MvYMAAAAJ&hl=en">Muhammad Ali Jamshed</a> from the <a href="https://www.gla.ac.uk/">University of Glasgow</a>. Prior to this, I graduated as the best student from the Department of Electrical Engineering at <a href="https://portal.oouagoiwoye.edu.ng/">Olabisi Onabanjo University</a> with a departmental CGPA record for my undergraduate degree.
 
-<p>
-<br>
-<br>
-</p>
-
-
-### research highlights:
-
-<ul>
-  <li><b>ML Systems.</b> <a href="https://arxiv.org/abs/2512.24601">Recursive Language Models (RLMs)</a> (2025), <a href="https://gpu-mode.github.io/popcorn/">Project Popcorn 🍿</a> (2025), <a href="https://github.com/Ligo-Biosciences/AlphaFold3?tab=readme-ov-file#msa-pair-averaging-efficiency">Triton kernels for OSS AlphaFold3 (1k+ ⭐'s)</a> (2024)</li>
-  <li><b>Language Model Benchmarks.</b> <a href="http://www.vgbench.com">VideoGameBench</a> (2025), <a href="https://arxiv.org/abs/2502.10517v1">KernelBench</a> (ICML, 2025), <a href="https://www.swebench.com/multimodal.html">SWE-bench Multimodal</a> <img src="assets/img/swellamamm.png" alt="emoji" width="20" style="vertical-align: middle;"> (ICLR, 2025)</li>
-  <li><b>Models.</b> <a href="https://www.vant.ai/neo-1">Neo-1</a> (2025), <a href="https://huggingface.co/facebook/KernelLLM">KernelLLM-8B</a> (2025), <a href="https://arxiv.org/abs/2402.01695">Language-guided World Models</a> (SpLU-RoboNLP @ ACL, 2024)</li>
-
-</ul>
-<!-- in  and <a href="https://arxiv.org/abs/2302.04449">guiding</a> agent behavior in different data modalities</b> to create more reliable, interpretable, and less data hungry AI models. I'm also very interested -->
 
 <p>
 <br>
 </p>
 
-Feel free to reach out to talk about anything through my email at [x]@mit.edu where [x]=altzhang. Finally, I'm also fairly active in and help moderate the <a href="https://www.youtube.com/channel/UCJgIbYl6C5no72a0NUAPcTA">GPU MODE</a> community.
+Feel free to reach out to talk about anything through my email at oluwaseyi@aims.ac.za. In case you don't get a response after two weeks, do not hesitate to send a reminder as your email may have been routed to my junk folder. Also, you can directly schedule a 30-minute chat with me here <a href="https://calendly.com/giwaoluwaseyi130/30min">Calendly</a>.

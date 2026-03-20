@@ -15,37 +15,22 @@ horizontal: false
 <hr>
 
 <div class="projects">
-<h4>AI/ML</h4>
+<h4>Projects</h4>
 <ul>
 <li> 
-        Efficient Triton Implementation of MSA pair weighted averaging with gating for AlphaFold3 🧬 <a href="https://github.com/Ligo-Biosciences/AlphaFold3?tab=readme-ov-file#msa-pair-averaging-efficiency"><i class="fa fa-github" style="font-size:18px"></i></a>
+        Hierarchical DRL for resource allocation in mobile edge computing environment
 </li>
 <li> 
-        Triton Implementation of FlashAttention2 with Custom Attention Masks 🎭 <a href="https://github.com/alexzhang13/flashattention2-custom-mask"><i class="fa fa-github" style="font-size:18px"></i></a>
+        Hierarchical Lasso technique for causal discovery in open radio access networks
 </li>
 <li> 
-        <a href="https://alexzhang13.github.io/assets/pdfs/Reward_Shaping_LLM.pdf">A Simple Framework for Intrinsic Reward-Shaping for Reinforcement Learning using LLM Feedback</a> (bad code) <a href="https://github.com/alexzhang13/reward-shaping-rl"><i class="fa fa-github" style="font-size:18px"></i></a>
+        <a href="https://pytwinnet.readthedocs.io/en/latest/">PyTwinNet</a> <a href="https://github.com/OluwaseyiWater/PyTwinNet"><i class="fa fa-github" style="font-size:18px"></i></a>
 </li>
 <li> 
-        <a href="https://alexzhang13.github.io/assets/pdfs/Pruning_KMatrix_AZ.pdf">Pruning Methods with Sparse Factorizations of Neural Networks</a> <a href="https://github.com/alexzhang13/COS598D-Pruning"><i class="fa fa-github" style="font-size:18px"></i></a>
+        Rao-Blackwellized Particle Filter for channel tracking <a href="https://github.com/OluwaseyiWater/bayesian-equalizer"><i class="fa fa-github" style="font-size:18px"></i></a>
 </li>
-<li> 
-        <a href="https://arxiv.org/abs/2311.11427">Appearance Codes using Joint Embedding Learning of Multiple Modalities</a> <a href="https://github.com/edogariu/alex-zhang"><i class="fa fa-github" style="font-size:18px"></i></a>
-</li>
-<li>
-        <a href="https://alexzhang13.github.io/assets/pdfs/Futures.pdf"> 
-        Predicting Visual Futures with Image Captioning and Pre-Trained Language Models </a>  <a href="https://github.com/alexzhang13/image-gail"><i class="fa fa-github" style="font-size:18px"></i></a>
-</li>
-<li>
-        <a href="https://ieeexplore.ieee.org/abstract/document/9660564"> 
-        Developing a Device-Independent Software for Adaptive Tremor Suppression Orthoses </a>  <a href="https://github.com/alexzhang13/TremorWear_Env"><i class="fa fa-github" style="font-size:18px"></i></a>
-        <p style="margin-left:25px">
-        - Intel International Science and Engineering Fair (ISEF) 2019 - 2nd Place
-        </p>
-</li>
-
 </ul>
-<h4>Math Stuff</h4>
+<!-- <h4>Math Stuff</h4>
 <ul>
 <li> 
         <a href="https://alexzhang13.github.io/assets/pdfs/Overparameterized.pdf">Robustness of Overparameterized Deep Learning </a> 
@@ -69,4 +54,4 @@ horizontal: false
 <li> 
         My Solutions to Sasha Rush's Triton Puzzles <a href="https://github.com/alexzhang13/Triton-Puzzles-Solutions"><i class="fa fa-github" style="font-size:18px"></i></a>
 </li>
-</ul>
+</ul> -->

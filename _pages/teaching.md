@@ -9,19 +9,21 @@ nav_order: 5
 
 <h3>school</h3>
 
-\> graduated <i>summa cum laude (highest honors)</i> from princeton university 🐅 with a degree in cs.
+\> graduated <i>cum laude</i> from the university of cape town with a master's degree in maths science.
 <ul>
-<li> <b>Phillip Goldman '86 Senior Prize in Computer Science</b>: Princeton CS department's highest academic honor awarded to a single student (1/216). <a href="https://www.cs.princeton.edu/news/class-day-department-celebrates-accomplishments-graduates">[newsletter]</a> </li>
-<li> <b>Outstanding Senior Thesis Prize</b>: for work on <a href="https://dataspace.princeton.edu/handle/88435/dsp014j03d301r">augmenting decision-making agents with language capabilities. </a> </li>
-<li> <b>Outstanding Computer Science Service Award</b>: co-founded and served as president of <a
-href="https://ai-house.vercel.app">AI@Princeton</a> + helped organize first <a href="https://ai-house.vercel.app/Framework/aitt.html">AI Tiger Trek</a>. </li>
+<li> <b>Mastercard Foundation Scholarship</b>: Full tuition and living expenses.</li>
 </ul>
 
-\> graduated <i>valedictorian</i> (1/~400) from a public US high school 🎓.
+\> graduated <i>top of class</i> (1/87) from department of electrical engineering, olabisi onabanjo university 🎓.
+<ul>
+<li> <b>Federal Government of Nigeria Undergraduate Scholarship</b>: Full tuition and living expenses.</li>
+<li> <b>Dean's Prize</b>: First class GPA for all the ten semesters.</li>
+<li> Highest graduating CGPA in the department (>22 years).</li>
+</ul>
 
 <hr>
 
-<p> <em> * indicates graduate coursework</em> </p>
+<!-- <p> <em> * indicates graduate coursework</em> </p>
 <h3>computer science</h3>
 <table>
 <tbody>
@@ -439,4 +441,4 @@ href="https://ai-house.vercel.app">AI@Princeton</a> + helped organize first <a h
     </td>
 </tr>
 </tbody>
-</table>
+</table> -->
