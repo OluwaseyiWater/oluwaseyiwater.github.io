@@ -1137,6 +1137,9 @@ ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
 
+.news table td {
+  color: var(--global-text-color) !important;
+}
 // newsletter
 .newsletter-form-container {
   margin-bottom: 20px;
