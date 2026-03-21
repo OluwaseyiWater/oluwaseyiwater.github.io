@@ -1137,7 +1137,7 @@ ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
 
-.news table td {
+.news table td, .news table th {
   color: var(--global-text-color) !important;
 }
 // newsletter
