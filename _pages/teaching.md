@@ -14,7 +14,7 @@ nav_order: 5
 <li> <b>Mastercard Foundation Scholarship</b>: Full tuition and living expenses.</li>
 </ul>
 
-\> graduated <i>top of class</i> (1/87) from department of electrical engineering, olabisi onabanjo university 🎓.
+\> graduated <i>top of class</i> (1/87) from the department of electrical engineering, olabisi onabanjo university 🎓.
 <ul>
 <li> <b>Federal Government of Nigeria Undergraduate Scholarship</b>: Full tuition and living expenses.</li>
 <li> <b>Dean's Prize</b>: First class GPA for all the ten semesters.</li>
