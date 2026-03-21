@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Meta-RL Paper"
 date: 2026-02-26
 inline: true
 related_posts: false

@@ -22,7 +22,7 @@ _styles: >
     }
 ---
 
-Hi 👋! I broadly work on areas in wireless communications. More specifically on AI-Native Wireless Networks, i.e., how to make AI a core part in---both the architecture and functionality---of wireless networks. I have applied reinforcement learning (RL) amd large language models (LLMs) as tools to simultaneously enhance the performance and address the challenges of wireless networks, particularly the forthcoming 6G network. Presently, I am exploring causality in wireless networks in collaboration with <a href="https://users.wpi.edu/~cthomas2/">Christo K. Thomas</a>.
+Hi 👋! I broadly work on areas in wireless communications. More specifically on AI-Native Wireless Networks, i.e., how to make AI a core part in---both the architecture and functionality---of wireless networks. I have applied reinforcement learning (RL) and large language models (LLMs) as tools to simultaneously enhance the performance and address the challenges of wireless networks, particularly the forthcoming 6G network. Presently, I am exploring causality in wireless networks in collaboration with <a href="https://users.wpi.edu/~cthomas2/">Christo K. Thomas</a>.
 
 I am an incoming PhD student at the <a href="https://www.ece.utoronto.ca/">Edward S. Rogers Sr. Department of Electrical & Computer Engineering, University of Toronto</a> advised by <a href="https://www.ece.utoronto.ca/people/adve-r/">Raviraj Adve</a>.
 
