@@ -118,18 +118,18 @@
 
 
 <!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?b05f9a0b7405d7c8c89c7465593dea81">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
 <!-- Bootstrap Table -->
 
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?dadeb9c5d1fd12bc8d37475657446863">
 <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
 
 <!-- Code Syntax Highlighting -->
-<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?53a094b51ed1d1e025731eb00d240058" media="" id="highlight_theme_light">
 
 
 
@@ -139,13 +139,18 @@
 
 
 
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%AB%A1&lt;/text&gt;&lt;/svg&gt;">
+  <link rel="shortcut icon" href="/assets/img/favicon.svg?ee18e05ca1977a3306eb63b8599a338e">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="https://oluwaseyiwater.github.io/news/qppg/">
 
 <!-- Dark Mode -->
-<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+<script src="/assets/js/theme.js?7b1068a1099d4262cace6933e385240d"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?46af317e693b09921dcb92261d123fbc" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
 
 
 <!-- GeoJSON support via Leaflet -->
@@ -262,6 +267,15 @@
               </button>
             </li>
           
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
           
         </ul>
       </div>
@@ -384,7 +398,7 @@
 
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+  <script defer src="/assets/js/zoom.js?b977fe0c21b2118ed853308b1b923969"></script>
 
 
 
@@ -392,12 +406,12 @@
 
 
 <!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
-<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+<script src="/assets/js/no_defer.js?699fa7cbe3b29f831db7d5250ba3203a"></script>
+<script defer src="/assets/js/common.js?d3a25b46bbd2e0a751a27b173abc6e5f"></script>
+<script defer src="/assets/js/copy_code.js?d359581efc54b08366f9ef8219e6e511" type="text/javascript"></script>
 
 <!-- Jupyter Open External Links New Tab -->
-<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+<script defer src="/assets/js/jupyter_new_tab.js?25eff8ff4144a010e4ad7b31403102cf"></script>
 
 
 
@@ -533,7 +547,7 @@
 
 
     
-  <script type="module" src="/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?66cb7c6fd8c87d040727f1e99683717e"></script>
   <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
   <script>
     let searchTheme = determineComputedTheme();
@@ -614,7 +628,33 @@
           section: "News",},{id: "news-i-was-awarded-the-faculty-of-engineering-prize-for-best-graduating-student-in-the-department-of-electrical-engineering-at-olabisi-onabanjo-university",
           title: 'I was awarded the faculty of engineering prize for best graduating student in the department of electrical engineering at Olabisi Onabanjo University.',
           description: "",
-          section: "News",},];
+          section: "News",},{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
   </script>
 
 
